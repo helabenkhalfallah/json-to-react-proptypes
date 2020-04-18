@@ -8,6 +8,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8001 --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "test"
   },
   "repository": {
