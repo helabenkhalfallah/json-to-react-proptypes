@@ -4,12 +4,10 @@
   "description": "Convert json to react proptypes (types &amp; default)",
   "main": "index.js",
   "module": "main.js",
-  "homepage": "https://helabenkhalfallah.github.io/react-json-to-proptypes/",
+  "homepage": "https://github.com/helabenkhalfallah/json-to-react-proptypes#README.md",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8001 --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "test": "test"
   },
   "repository": {
