@@ -1,6 +1,14 @@
 # react-json-to-proptypes
 Convert json to react proptypes (types &amp; default)
 
+## How to use ?
+
+1. Clone the project
+
+2. ```npm install``` && ```npm start```
+
+3. Open ```http://localhost:8001/```
+
 ## Input example 
 
 ```json
