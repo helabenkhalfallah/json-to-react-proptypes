@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const TerserPlugin = require('terser-webpack-plugin')
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -53,6 +54,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
+    // eslint-disable-next-line no-useless-escape
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /ru/),
     new MiniCssExtractPlugin({
       filename: './css/main.css',

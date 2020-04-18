@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HomePage from './src/HomePage'
+import Routes from './src/Routes'
 
 // eslint-disable-next-line react/jsx-filename-extension
-ReactDOM.render(<HomePage />, document.getElementById('root'))
+ReactDOM.render(<Routes />, document.getElementById('root'))

@@ -63,6 +63,7 @@ module.exports = {
     port: 9000,
     contentBase: './dist',
     hot: true,
+    historyApiFallback: true,
   },
   target: 'web',
 }
