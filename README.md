@@ -11,7 +11,7 @@ Convert json to react proptypes (types &amp; default)
 
 4. Open ```http://localhost:8001/```
 
-Parent json node must be an object (valid json).
+Parent json node must be an object (**valid json**).
 
 ## Input example 
 
