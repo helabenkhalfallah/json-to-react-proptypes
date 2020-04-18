@@ -11,6 +11,8 @@ import {
 import ValidatorUtils from './ValidatorUtils'
 
 const {
+  formatPropTypes,
+  formatDefaultPropTypes,
   convertJsonToPropTypes,
 } = ValidatorUtils
 
@@ -74,9 +76,13 @@ const AppHomePage = () => {
                 onClick={() => {
                   const propTypes = convertJsonToPropTypes(sourceText)
                   const propsTypeTextDisplay = `
-PropTypes : ${JSON.stringify(propTypes[0], null, 4).replace(/"/gi, '')}
+import PropTypes from 'prop-types'
 
-DefaultProps : ${JSON.stringify(propTypes[1], null, 4).replace(/"/gi, '')}
+// propsType (validation)
+MyComponent.propTypes = ${formatPropTypes(propTypes[0])}
+
+// default props
+MyComponent.defaultProps = ${formatDefaultPropTypes(propTypes[1])}
                   `
                   setPropTypeText(propsTypeTextDisplay)
                 }}
