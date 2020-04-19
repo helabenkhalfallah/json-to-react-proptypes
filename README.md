@@ -3,15 +3,7 @@ Convert Json to React Proptypes (propTypes &amp; defaultProps)
 
 ## How to use ?
 
-1. ```git clone https://github.com/helabenkhalfallah/react-json-to-proptypes.git```
-
-2. ```cd react-json-to-proptypes```
-
-3. ```npm install``` && ```npm start```
-
-4. Open ```http://localhost:8001/```
-
-Parent json node must be an object (**valid json**).
+https://json-to-react-proptypes.netlify.app/
 
 ## Input example 
 
