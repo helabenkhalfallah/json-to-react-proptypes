@@ -1,5 +1,5 @@
 # react-json-to-proptypes
-Convert Json to React Proptypes (propTypes &amp; defaultProps)
+Convert Json to React Proptypes (propTypes & defaultProps & nest object structure)
 
 ## How to use ?
 
