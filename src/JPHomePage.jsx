@@ -88,7 +88,7 @@ MyComponent.defaultProps = ${formatDefaultPropTypes(propTypes[1])}
                   setPropTypeText(propsTypeTextDisplay)
                 }}
               >
-                Convert
+                J2P >>
               </Button>
             </Col>
             <Col
