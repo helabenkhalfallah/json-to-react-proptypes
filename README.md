@@ -3,7 +3,8 @@ Convert Json to React Proptypes (propTypes & defaultProps with nested object str
 
 ## How to use ?
 
-https://json-to-react-proptypes.netlify.app/
+https://helabenkhalfallah.github.io/json-to-react-proptypes/
+
 
 ## Input example 
 
