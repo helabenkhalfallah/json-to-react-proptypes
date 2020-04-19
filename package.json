@@ -2,6 +2,7 @@
   "name": "json-to-react-proptypes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://helabenkhalfallah.github.io/json-to-react-proptypes",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helabenkhalfallah/json-to-react-proptypes.git"
@@ -21,6 +22,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
