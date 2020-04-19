@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HomePage from './HomePage';
+import JPHomePage from './JPHomePage';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage />
+    <JPHomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );

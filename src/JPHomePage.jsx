@@ -8,13 +8,13 @@ import {
   Col,
   Typography,
 } from 'antd'
-import ValidatorUtils from './ValidatorUtils'
+import JPTransformer from './JPTransformer'
 
 const {
   formatPropTypes,
   formatDefaultPropTypes,
   convertJsonToPropTypes,
-} = ValidatorUtils
+} = JPTransformer
 
 const {
   TextArea,
@@ -31,7 +31,7 @@ const {
 } = Layout
 
 
-const HomePage = () => {
+const JPHomePage = () => {
   const [sourceText, setSourceText] = useState()
   const [propTypeText, setPropTypeText] = useState()
   return (
@@ -108,13 +108,13 @@ MyComponent.defaultProps = ${formatDefaultPropTypes(propTypes[1])}
 }
 
 // propsType (validation)
-HomePage.propTypes = {
+JPHomePage.propTypes = {
 
 }
 
 // default props
-HomePage.defaultProps = {
+JPHomePage.defaultProps = {
 
 }
 
-export default HomePage
+export default JPHomePage

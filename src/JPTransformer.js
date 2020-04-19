@@ -78,18 +78,16 @@ const propTypesForObject = (
       first,
     ] = value
 
+    defaultPropTypesCopy[key] = []
     if (typeof first === 'string') {
-      defaultPropTypesCopy[key] = null
       propTypesCopy[key] = ['PropTypes.string']
     }
 
     if (typeof first === 'number') {
-      defaultPropTypesCopy[key] = 0
       propTypesCopy[key] = ['PropTypes.number']
     }
 
     if (typeof first === 'boolean') {
-      defaultPropTypesCopy[key] = false
       propTypesCopy[key] = ['PropTypes.bool']
     }
 
@@ -101,7 +99,6 @@ const propTypesForObject = (
         {},
         first,
       )
-      defaultPropTypesCopy[key] = []
       propTypesCopy[key] = [firstPropType]
     }
   }
@@ -155,10 +152,10 @@ const convertJsonToPropTypes = (sourceText) => {
 }
 
 
-const ValidatorUtils = {
+const JPTransformer = {
   formatPropTypes,
   formatDefaultPropTypes,
   convertJsonToPropTypes,
 }
 
-export default ValidatorUtils
+export default JPTransformer
