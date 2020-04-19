@@ -1,5 +1,5 @@
-# J2PTransformer (J2P)
-Convert Json to React Proptypes (propTypes & defaultProps with nested object structure)
+# Json to React PropTypes (J2P)
+Convert Json to React PropTypes (propTypes & defaultProps with nested object structure)
 
 ## How to use ?
 
