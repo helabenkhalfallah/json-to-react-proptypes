@@ -105,5 +105,6 @@ dist
 
 # webpack stats file
 stats.json
+build/*
 ./dist/*
 .DS_Store

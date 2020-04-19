@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './ant.less'
+import 'antd/dist/antd.css'
 import {
   Button,
   Input,
@@ -31,13 +31,15 @@ const {
 } = Layout
 
 
-const AppHomePage = () => {
+const HomePage = () => {
   const [sourceText, setSourceText] = useState()
   const [propTypeText, setPropTypeText] = useState()
   return (
     <>
       <Layout>
-        <Header>
+        <Header
+        style={{ backgroundColor : 'white'}}
+        >
           <Row>
             <Col span={24}>
               <Title>
@@ -68,10 +70,9 @@ const AppHomePage = () => {
             </Col>
             <Col
               span={2}
-              style={{ padding: '0' }}
             >
               <Button
-                type="primary"
+                type="danger"
                 shape="round"
                 onClick={() => {
                   const propTypes = convertJsonToPropTypes(sourceText)
@@ -107,13 +108,13 @@ MyComponent.defaultProps = ${formatDefaultPropTypes(propTypes[1])}
 }
 
 // propsType (validation)
-AppHomePage.propTypes = {
+HomePage.propTypes = {
 
 }
 
 // default props
-AppHomePage.defaultProps = {
+HomePage.defaultProps = {
 
 }
 
-export default AppHomePage
+export default HomePage
