@@ -79,27 +79,31 @@ const propTypesForObject = (
     ] = value
 
     defaultPropTypesCopy[key] = []
-    if (typeof first === 'string') {
-      propTypesCopy[key] = ['PropTypes.string']
-    }
-
-    if (typeof first === 'number') {
-      propTypesCopy[key] = ['PropTypes.number']
-    }
-
-    if (typeof first === 'boolean') {
-      propTypesCopy[key] = ['PropTypes.bool']
-    }
-
-    if (typeof first === 'object') {
-      const [
-        firstPropType,
-      ] = propTypesForObject(
-        {},
-        {},
-        first,
-      )
-      propTypesCopy[key] = [firstPropType]
+    if(!first){
+      propTypesCopy[key] = ['']
+    }else{
+      if (typeof first === 'string') {
+        propTypesCopy[key] = ['PropTypes.string']
+      }
+  
+      if (typeof first === 'number') {
+        propTypesCopy[key] = ['PropTypes.number']
+      }
+  
+      if (typeof first === 'boolean') {
+        propTypesCopy[key] = ['PropTypes.bool']
+      }
+  
+      if (typeof first === 'object') {
+        const [
+          firstPropType,
+        ] = propTypesForObject(
+          {},
+          {},
+          first,
+        )
+        propTypesCopy[key] = [firstPropType]
+      }
     }
   }
 
