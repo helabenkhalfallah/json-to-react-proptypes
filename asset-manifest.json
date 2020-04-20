@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/json-to-react-proptypes/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/json-to-react-proptypes/static/js/main.95479e9c.chunk.js",
-    "main.js.map": "/json-to-react-proptypes/static/js/main.95479e9c.chunk.js.map",
+    "main.js": "/json-to-react-proptypes/static/js/main.28232b1c.chunk.js",
+    "main.js.map": "/json-to-react-proptypes/static/js/main.28232b1c.chunk.js.map",
     "runtime-main.js": "/json-to-react-proptypes/static/js/runtime-main.ee3409be.js",
     "runtime-main.js.map": "/json-to-react-proptypes/static/js/runtime-main.ee3409be.js.map",
     "static/css/2.a72c35d3.chunk.css": "/json-to-react-proptypes/static/css/2.a72c35d3.chunk.css",
     "static/js/2.89237f4b.chunk.js": "/json-to-react-proptypes/static/js/2.89237f4b.chunk.js",
     "static/js/2.89237f4b.chunk.js.map": "/json-to-react-proptypes/static/js/2.89237f4b.chunk.js.map",
     "index.html": "/json-to-react-proptypes/index.html",
-    "precache-manifest.cc3741410dd8ba37cf188c0e475a7a27.js": "/json-to-react-proptypes/precache-manifest.cc3741410dd8ba37cf188c0e475a7a27.js",
+    "precache-manifest.a9a509e6fc55e67b7aced35c867e0754.js": "/json-to-react-proptypes/precache-manifest.a9a509e6fc55e67b7aced35c867e0754.js",
     "service-worker.js": "/json-to-react-proptypes/service-worker.js",
     "static/css/2.a72c35d3.chunk.css.map": "/json-to-react-proptypes/static/css/2.a72c35d3.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/json-to-react-proptypes/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.a72c35d3.chunk.css",
     "static/js/2.89237f4b.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.95479e9c.chunk.js"
+    "static/js/main.28232b1c.chunk.js"
   ]
 }
